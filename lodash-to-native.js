@@ -25,7 +25,6 @@ const transforms = {
   isUndefined: require("./helpers/binaryExpression")("undefined"),
   isNull: require("./helpers/binaryExpression")("null"),
   isNaN: require("./helpers/staticFunction")("Number", "isNaN"),
-  isNumber: require("./helpers/staticFunction")("Number", "isNumber"),
   isArray: require("./helpers/staticFunction")("Array", "isArray"),
   isObject: require("./helpers/staticFunction")("Object", "isObject")
 };
